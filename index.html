@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Добавить новый товар</h2>
+    <form id="productForm">
+        <div>
+            <label>Название товара:</label><br>
+            <input type="text" id="productTitle">
+        </div>
+        <div>
+            <label>Цена:</label><br>
+            <input type="number" id="productPrice">
+        </div>
+        <br>
+        <button type="submit">Создать товар</button>
+    </form>
+
+    <hr>
+
+    <h2>Список товаров</h2>
+    <div id="productsContainer"></div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
